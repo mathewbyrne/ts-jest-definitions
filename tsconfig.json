@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+    ],
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "allowJs": false,
+    "outDir": "./build",
+    "baseUrl": "./src"
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+  ]
+}
